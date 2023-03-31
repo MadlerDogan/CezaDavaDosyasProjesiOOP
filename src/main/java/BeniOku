@@ -1,0 +1,38 @@
+Dava Dosyası Projesi
+Bir avukat için dava dosyası takip programı yazılacaktır.
+
+Dosya bilgileri      :
+Dosya numarası   + taraf bilgileri
+
+Dosyanın yapısı : Dosya bir TreeMap'dir.
+TreeMap'in key'i string bir dosya numarasıdır.
+Taraf bigileri dosya nesnesinin içinde tutulan bir 'dosya' nesnelerinden oluşan bir list içindedir.
+
+Dosya nesnesinin yapısı : müşteki, sanık, tanık ve suç nesnelerini barındıran listlerden oluşur.
+
+Dosyanın Tarafları ve suç nesnelerinin içeriği
+Müsteki     : ad, soyad, adre
+Sanık       : ad, soyad, adres
+Tanık       : ad, soyad, adres
+Suç         : suc adı, kanun numarası, suç yeri, suç tarihi
+
+
+Ana Ekran
+1-Yeni dosya oluştur +
+--dosya Treemap olarak oluşturuldu. Dosya numarasına göre oluşacak.??
+2-Dosya ara+
+    1-dosya numarasına göre dosya ara//önce bu yapılacak.
+    2-Müşteki ismine göre dosya ara //bu ve sonraki database veya bir şablon liste oluşunca yapılacak
+    3-Sanık adına göre dosya ara
+
+Progamın çalışma esası
+Programın 3 dosyadan oluşan hazır bir yapısı vardır.
+
+Yeni dosya oluşturulabilir
+dosya silebilir
+dosyaların arasında arama yapılabilir
+
+Taraflarla ilgili bilgilere erişebilir.
+Yeni taraf/suç oluşturabilir
+Aynı dosyaya birden fazla taraf/suç ekleyebilir.
+Tarafları silebilir
